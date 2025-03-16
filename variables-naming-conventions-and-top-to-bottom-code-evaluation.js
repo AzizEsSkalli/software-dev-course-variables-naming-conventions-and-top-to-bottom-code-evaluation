@@ -24,9 +24,11 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let costumerFirstName = "Alice";
+let costumerLastName = "Smith";
+let itemNumber = 5;
+let itemPrice = 20;
+let cashierNumber = 2;
+let shoopingInfo = costumerFirstName + " " + costumerLastName + " bought " + itemNumber + " items for $" + itemPrice + ", and the payment has been in cashier " + cashierNumber + ".";
 
-console.log(d);
+console.log(shoopingInfo);
